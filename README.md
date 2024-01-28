@@ -1,4 +1,5 @@
-### just put the hpp file and cpp files into your project, then you can parse the urdf file by just calling the function parse_urdf()
+### Introduction
+Just put the hpp file and cpp files into your project, then #include "path/to/parse_urdf.hpp", now you can parse the urdf file by just calling the function parse_urdf()
 
 ## Usage
 ```cpp
