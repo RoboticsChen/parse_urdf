@@ -9,3 +9,12 @@
  */
 std::vector<std::vector<double>> parse_urdf(const std::string &urdfPath);
 ```
+## Demo
+```bash
+# cpp version
+cd example && mkdir build && cd build && cmake .. && make
+./parse path/to/your/urdf/file
+# python version (>3.6)
+cd python_version
+python parse_urdf.py path/to/your/urdf/file
+```
